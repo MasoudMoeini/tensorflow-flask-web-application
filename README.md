@@ -15,6 +15,6 @@ $ pip install pillow <br/>
 $ python main.py <br/>
 <br/>
 <br/>
-open the URL http://localhost:5000 in the browser <br/>
-to stop running app use ctl+c
-to deativate python virtual environmet: $deactivate <br/>
+- open the URL http://localhost:5000 in the browser <br/>
+- to stop running app use ctl+C <br/>
+- to deativate python virtual environmet: $deactivate <br/>
