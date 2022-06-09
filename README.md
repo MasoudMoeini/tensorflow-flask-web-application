@@ -16,5 +16,5 @@ $ python main.py <br/>
 <br/>
 <br/>
 - open the URL http://localhost:5000 in the browser <br/>
-- to stop running app use ctl+C <br/>
-- to deativate python virtual environmet: $deactivate <br/>
+- to stop running app use CTL+C <br/>
+- to deativate python virtual environmet: $ deactivate <br/>
