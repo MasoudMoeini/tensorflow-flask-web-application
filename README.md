@@ -6,6 +6,7 @@ $ cd tensorflow-flask-web-application <br/>
 $ python3 -m venv venv <br/>
 $ . venv/bin/activate <br/>
 $ pip install --upgrade pip <br/>
+$ pip install Flask
 $ pip install numpy <br/>
 $ pip install tensorflow <br/>
 $ pip install pillow <br/>
