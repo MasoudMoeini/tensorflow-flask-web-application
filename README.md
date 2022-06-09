@@ -10,6 +10,7 @@ $ pip install Flask <br/>
 $ pip install numpy <br/>
 $ pip install tensorflow <br/>
 $ pip install pillow <br/>
+$ pip freeze > requirement.txt
 
 **Run the application**<br/>
 $ python main.py <br/>
