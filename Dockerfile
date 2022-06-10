@@ -1,11 +1,12 @@
-FROM python
-RUN pip install --upgrade pip
-
+FROM ubuntu:latest
+RUN   apt-get update &&  apt-get install -y python3-pip
 WORKDIR /app
 
-ADD . /app
+COPY . /app
 
-RUN pip install -r requirement.txt
-EXPOSE 5000 
+RUN pip --no-cache-dir install -r requirement.txt
 
-CMD ["python",'main.py']
+EXPOSE 5000
+
+ENTRYPOINT ["python"]
+CMD ["main.py"]
