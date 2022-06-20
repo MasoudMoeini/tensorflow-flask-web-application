@@ -12,15 +12,12 @@ $ pip install numpy <br/>
 $ pip install tensorflow <br/>
 $ pip install pillow <br/>
 $ pip freeze > requirement.txt<br/> 
-<br/>
 **Run the application**  <br/>
 $ python main.py <br/>
-<br/>
-**open the URL http://localhost:5000 in the browser**  <br/>
-**to stop running app use CTRL+C**  <br/>
-<br/>
-**to deativate python virtual environmet: $ deactivate***   <br/>
-<br/>
+**Open the URL http://localhost:5000 in the browser**  <br/>
+**To stop running app use CTRL+C**  <br/>
+**To deativate python virtual environmet:**  <br/>
+$ deactivate <br/>  
 **building docker image and running App with docker:**   <br/>
 $ docker build -t flask-minst-app . <br/>
 $ docker image list <br/>
