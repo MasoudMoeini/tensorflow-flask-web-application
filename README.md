@@ -26,4 +26,5 @@ $ docker login  <br>
 $ docker push masodatc/tensorflow-flask-web-application:tagname  <br>
  <br>
  <br>
-
+# Resources
+[Flask Tutorial](https://roytuts.com/upload-and-display-image-using-python-flask/)
